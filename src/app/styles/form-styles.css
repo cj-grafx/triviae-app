@@ -64,6 +64,12 @@ form {
   margin-bottom: 22px;
 }
 
+.login-card-paragraph {
+  margin-bottom: 22px;
+  font-size: 1rem;
+  color: #505d6b;
+}
+
 .login-form-container {
   display: flex;
   flex-direction: column;
@@ -104,7 +110,36 @@ form {
   vertical-align: center;
 }
 
-.sign-in-button {
+.checkbox-validation-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#checkbox-input {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  border: 2px solid grey;
+  accent-color: #287175;
+  background-color: white;
+}
+
+#checkbox-input:focus {
+  outline: none;
+}
+
+.checkbox-label-container p {
+  font-size: 0.82rem;
+}
+
+.checkbox-label-container p a {
+  color: #44c0c7;
+}
+
+.sign-in-button,
+.sign-up-button {
   height: 40px;
   flex-grow: 1;
   width: 100%;
@@ -120,7 +155,8 @@ form {
   font-weight: 600;
 }
 
-.sign-in-button:hover {
+.sign-in-button:hover,
+.sign-up-button:hover {
   background-color: #287175;
 }
 
@@ -134,7 +170,8 @@ form {
   color: #808e9d;
 }
 
-#google-login-link {
+#google-login-link,
+#google-sign-up-link {
   position: relative;
   height: 40px;
   flex-grow: 1;
@@ -148,10 +185,12 @@ form {
   justify-content: center;
   font-weight: 600;
   font-size: 1rem;
+  gap: 5px;
 }
 
 #google-login-link:hover,
-#sign-up-link:hover {
+#sign-up-link:hover,
+#google-sign-up-link:hover {
   border: 1px solid #4fe3ea;
   color: #4fe3ea;
 }
@@ -162,6 +201,10 @@ form {
   height: 25px;
   /* background-color: pink; */
   left: 7px;
+}
+
+.google-sign-up-logo {
+  position: static;
 }
 
 .divider {

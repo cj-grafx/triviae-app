@@ -1,6 +1,6 @@
 import Image from "next/image";
-import appLogoSVG from "../logo/app-logo2.svg";
-import googleLogoSVG from "../logo/google-svg.svg";
+import appLogoSVG from "../app/logo/app-logo2.svg";
+import googleLogoSVG from "../app/logo/google-svg.svg";
 
 export default function Home() {
   return (
