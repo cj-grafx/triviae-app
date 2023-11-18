@@ -1,14 +1,15 @@
 import Image from "next/image";
 import appLogoSVG from "../app/logo/app-logo2.svg";
 import googleLogoSVG from "../app/logo/google-svg.svg";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
       <header className="header">
-        <a href="#">
+        <Link href="#">
           <Image src={appLogoSVG} alt="app logo" id="app-logo"></Image>
-        </a>
+        </Link>
       </header>
       <div className="login-card-container">
         <form>
@@ -35,19 +36,19 @@ export default function Home() {
               </div>
               <button className="sign-in-button">Sign in</button>
               <p className="login-alternative">OR</p>
-              <a href="#" id="google-login-link">
+              <Link href="#" id="google-login-link">
                 <span className="google-logo">
                   <Image src={googleLogoSVG} alt="google logo"></Image>
                 </span>
                 Continue with Google
-              </a>
+              </Link>
               <hr className="divider" />
-              <a href="#" id="sign-up-link">
+              <Link href="../sign-up" id="sign-up-link">
                 Sign up
-              </a>
-              <a href="#" id="forgot-password-link">
+              </Link>
+              <Link href="../forgot-password" id="forgot-password-link">
                 Forgot your password?
-              </a>
+              </Link>
             </div>
           </div>
         </form>

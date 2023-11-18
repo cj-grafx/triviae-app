@@ -139,7 +139,8 @@ form {
 }
 
 .sign-in-button,
-.sign-up-button {
+.sign-up-button,
+.send-link-button {
   height: 40px;
   flex-grow: 1;
   width: 100%;
@@ -156,7 +157,8 @@ form {
 }
 
 .sign-in-button:hover,
-.sign-up-button:hover {
+.sign-up-button:hover,
+.send-link-button:hover {
   background-color: #287175;
 }
 
@@ -190,7 +192,8 @@ form {
 
 #google-login-link:hover,
 #sign-up-link:hover,
-#google-sign-up-link:hover {
+#google-sign-up-link:hover,
+#go-back-link:hover {
   border: 1px solid #4fe3ea;
   color: #4fe3ea;
 }
@@ -217,7 +220,8 @@ form {
   width: 344px;
 }
 
-#sign-up-link {
+#sign-up-link,
+#go-back-link {
   position: relative;
   height: 40px;
   flex-grow: 1;
