@@ -15,13 +15,10 @@ export default function Home() {
       <div className="login-card-container">
         <form>
           <div className="login-card">
-            <p className="login-card-title">Sign up</p>
-            <p className="login-card-paragraph">
-              Just one more step to create your first test!
-            </p>
+            <p className="login-card-title">Sign in</p>
             <div className="login-form-container">
               <div className="field-input">
-                <p>Email address</p>
+                <p>Enter your email</p>
                 <input
                   type="email"
                   placeholder=""
@@ -30,7 +27,7 @@ export default function Home() {
                 />
               </div>
               <div className="field-input">
-                <p>Password &#40;min. 8 characters&#41;</p>
+                <p>Enter password</p>
                 <input
                   type="password"
                   placeholder=""
@@ -38,22 +35,20 @@ export default function Home() {
                   className="input-box"
                 />
               </div>
-              <div className="checkbox-validation-container">
-                <input type="checkbox" placeholder="" id="checkbox-input" />
-                <div className="checkbox-label-container">
-                  <p>
-                    By signing up I agree to <a href="#">Terms & Conditions</a>{" "}
-                    and <a href="#">Privacy Policy</a>.
-                  </p>
-                </div>
-              </div>
-              <button className="sign-up-button">Sign up</button>
+              <button className="sign-in-button">Sign in</button>
               <p className="login-alternative">OR</p>
-              <Link href="#" id="google-sign-up-link">
-                <span className="google-logo google-sign-up-logo">
+              <Link href="#" id="google-login-link">
+                <span className="google-logo">
                   <Image src={googleLogoSVG} alt="google logo"></Image>
                 </span>
-                Sign up with Google
+                Continue with Google
+              </Link>
+              <hr className="divider" />
+              <Link href="../sign-up" id="sign-up-link">
+                Sign up
+              </Link>
+              <Link href="../forgot-password" id="forgot-password-link">
+                Forgot your password?
               </Link>
             </div>
           </div>

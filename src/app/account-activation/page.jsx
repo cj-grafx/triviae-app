@@ -15,25 +15,26 @@ export default function Home() {
       <div className="login-card-container">
         <form>
           <div className="login-card">
-            <p className="login-card-title">Forgot your password?</p>
+            <p className="login-card-title">Activate your account</p>
             <p className="login-card-paragraph">
-              Enter the email address that you used at sign-up. We will send you
-              a link to set a new password.
+              An activation code has been sent to your email <br />
+              <b id="user-email">praise37471408@gmail.com</b>
+            </p>
+            <p className="login-card-paragraph">
+              Enter the code below and start using Triviaequiz.
             </p>
             <div className="login-form-container">
               <div className="field-input">
-                <p>Email</p>
                 <input
-                  type="email"
-                  placeholder=""
-                  id="email-input"
+                  type="text"
+                  id="activation-code-input"
                   className="input-box"
+                  placeholder="Enter the activation code"
                 />
               </div>
-              <button className="send-link-button">Send link</button>
-              <Link href="../" id="go-back-link">
-                Back
-              </Link>
+              <button className="activate-account-button">
+                Activate your account
+              </button>
             </div>
           </div>
         </form>
