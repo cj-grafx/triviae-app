@@ -15,7 +15,7 @@ export default function SecondSection() {
             <p className="section-2-sub-heading">
               Simplify the process of testing skills and knowledge
             </p>
-            <p className="section-2-heading">
+            <p className="section-heading">
               One platform for all your assessment requirements
             </p>
           </div>

@@ -21,7 +21,7 @@ export default function FirstSection() {
     <section className="section-1">
       <div className="section-1-main">
         <div className="section-1-division-left">
-          <p className="section-heading section-1-heading">
+          <p className="section-1-heading">
             Turn your {windowWidth <= 1284 && <br />}
             <span data-text="tests" className="section-1-heading-span">
               tests

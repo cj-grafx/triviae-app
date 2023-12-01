@@ -576,7 +576,7 @@ section {
   row-gap: 20px;
 }
 
-.section-heading {
+.section-1-heading {
   font-size: 48px;
   font-weight: 700;
   line-height: 53px;
@@ -601,7 +601,7 @@ section {
   /* top: 0; */
   left: 0;
   width: 0;
-  height: 85%;
+  height: 100%;
   color: #4fe3ea;
   -webkit-text-stroke: 0px #287175;
   border-right: 2px solid #4fe3ea;
@@ -907,7 +907,7 @@ section {
   margin-bottom: 6px;
 }
 
-.section-2-heading {
+.section-heading {
   color: #1a4a4d;
   font-size: 36px;
   font-weight: 700;
@@ -958,7 +958,7 @@ section {
     margin: 0 10px;
   }
 
-  .section-2-heading {
+  .section-heading {
     font-size: 24px;
   }
 
@@ -985,3 +985,7 @@ section {
 
 /* -----------------END OF MEDIA QUERY FOR SECOND SECTION-------------------- */
 /* -----------------END OF SECOND SECTION STYLES----------------- */
+
+/* --------------------THIRD SECTION STYLES------------------- */
+
+/* --------------------END OF THIRD SECTION STYLES------------------- */

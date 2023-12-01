@@ -7,6 +7,7 @@ import PageHeader from "./components/PageHeader";
 import FirstSection from "./components/FirstSection";
 import AccessCodeSection from "./components/AccessCodeSection";
 import SecondSection from "./components/SecondSection";
+import ThirdSection from "./components/ThirdSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <FirstSection />
       <AccessCodeSection />
       <SecondSection />
+      <ThirdSection />
     </>
   );
 }
