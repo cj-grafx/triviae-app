@@ -8,6 +8,7 @@ import FirstSection from "./components/FirstSection";
 import AccessCodeSection from "./components/AccessCodeSection";
 import SecondSection from "./components/SecondSection";
 import ThirdSection from "./components/ThirdSection";
+import TreeSection from "./components/TreeSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AccessCodeSection />
       <SecondSection />
       <ThirdSection />
+      <TreeSection />
     </>
   );
 }
