@@ -8,7 +8,7 @@
 
 body {
   padding-top: 96px;
-  /* padding-top: 100px; */
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -303,6 +303,7 @@ body {
 
   .header-container {
     background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   }
 
   .logo-1 {
@@ -538,7 +539,7 @@ section {
 
 .section-1 {
   background-color: #1a4a4d;
-  /* height: 100%; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -668,7 +669,7 @@ section {
 .access-code-section {
   background-color: #44c0c7;
   /* background-color: lightblue; */
-  /* height: 100%; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -877,7 +878,7 @@ section {
 .section-2 {
   margin: 134px 0 110px;
   background-color: #fff;
-  /* height: 100%; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -911,6 +912,7 @@ section {
   color: #1a4a4d;
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
 }
 
 .section-2-card-container {
@@ -983,7 +985,7 @@ section {
   }
 }
 
-/* -----------------END OF MEDIA QUERY FOR SECOND SECTION-------------------- */
+/* ---------END OF MEDIA QUERY FOR SECOND SECTION----------- */
 /* -----------------END OF SECOND SECTION STYLES----------------- */
 
 /* --------------------THIRD SECTION STYLES------------------- */
@@ -992,11 +994,11 @@ section {
   /* margin: 100px 0; */
   background-color: #fff;
   /* background-color: lightblue; */
-  /* height: 100%; */
+
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1100px;
+  margin-bottom: 110px;
 }
 
 .section-3-main {
@@ -1184,8 +1186,245 @@ section {
 
 /*--------------END OF MEDIA QUERY FOR THIRD SECTION----------- */
 
-/* --------------------END OF THIRD SECTION STYLES------------------- */
+/* -------------END OF THIRD SECTION STYLES------------ */
 
 /* ---------------TREE SECTION STYLES---------------- */
 
+.tree-section {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  margin-bottom: 110px;
+  position: relative;
+}
+
+.tree-section-heading {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leaf-icon {
+  display: flex;
+  width: 36px;
+  margin-left: 10px;
+}
+
+.trees-image {
+  height: 600px;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.tree-sub-heading {
+  max-width: 1366px;
+  margin-bottom: 120px;
+  padding: 0 75px;
+  text-align: center;
+}
+
+/* --------------MEDIA QUERY FOR TREE SECTION------------ */
+
+@media screen and (width <= 767px) {
+  .leaf-icon {
+    width: 24px;
+  }
+
+  .tree-sub-heading {
+    max-width: 1366px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (width <= 1040px) {
+  .tree-sub-heading {
+    margin-bottom: 90px;
+  }
+}
+
+/* -------------END OF MEDIA QUERY FOR TREE SECTION----------- */
 /* ---------------END OF TREE SECTION STYLES---------------- */
+
+/* --------------FOURTH SECTION STYLES ------------- */
+
+.section-4 {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 110px;
+}
+
+.section-4-main {
+  background-color: #1a4a4d;
+  /* background-color: pink; */
+  max-width: 1366px;
+  height: 100%;
+  flex-direction: row;
+  flex: 1;
+  margin: 0 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 75px 80px 56px;
+  border-radius: 20px;
+}
+
+.section-4-content {
+  /* background-color: pink; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+.section-4-heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 53px;
+  color: white;
+}
+
+.section-4-heading-span {
+  color: #4fe3ea;
+}
+
+.section-4-sub-heading {
+  font-size: 16px;
+  color: #fff;
+}
+
+.tag-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.tag-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #287175;
+}
+
+.tag {
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+}
+
+/* -----------MEDIA QUERY FOR FORTH SECTION----------- */
+@media screen and (width <= 1040px) {
+  .section-4-main {
+    justify-content: center;
+  }
+
+  .section-4-content {
+    align-items: center;
+    width: 100%;
+  }
+
+  .section-4-heading,
+  .section-4-sub-heading {
+    text-align: center;
+  }
+}
+
+@media screen and (width <= 767px) {
+  .section-4-main {
+    margin: 0 10px;
+    padding: 40px 16px 44px;
+  }
+
+  .section-4-content {
+    gap: 24px;
+  }
+
+  .section-4-heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .section-4-button {
+    min-width: 100%;
+  }
+
+  .tag-container {
+    align-self: flex-start;
+    margin-top: 0;
+  }
+}
+/* -----------END OF MEDIA QUERY FOR FORTH SECTION----------- */
+/* --------------END OF FOURTH SECTION STYLES ------------- */
+
+/* ----------FOOTER STYLES----------- */
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  /* background-color: #fff; */
+  background-color: pink;
+  max-width: 1366px;
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+  /* flex: 1; */
+  margin: 0 75px;
+  display: flex;
+}
+
+.footer-top,
+.footer-bottom {
+  background-color: grey;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 15px 0 30px;
+  align-items: center;
+}
+
+.socials-container {
+  display: flex;
+  height: fit-content;
+}
+
+.socials-icon {
+  margin: -12px 0;
+  padding: 12px;
+  width: 24px;
+}
+
+.triviae-quiz-logo {
+  width: 179px;
+}
+
+/* ----------MEDIA QUERY FOR FOOTER ----------- */
+
+/* ----------END OF MEDIA QUERY FOR FOOTER ----------- */
+/* ----------END OF FOOTER STYLES----------- */

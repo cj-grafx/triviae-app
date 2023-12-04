@@ -9,7 +9,7 @@ export default function ThirdSection() {
       <section className="section-3">
         <div className="section-3-main">
           <div className="section-3-heading-container">
-            <p className="section-heading section-3-heading">
+            <p className="section-heading">
               Testing can be approached more effectively.
             </p>
           </div>
@@ -62,35 +62,6 @@ export default function ThirdSection() {
                   Testportal ensures a swift, stress-free, and unbiased
                   assessment without fatigue or stress, delivering seamless
                   outcomes.
-                  <Image
-                    className="section-3-icons"
-                    src={circle7}
-                    alt="circle"
-                  ></Image>
-                </p>
-              </div>
-            </div>
-            <div className="section-3-content">
-              <p className="section-3-content-title">
-                THOROUGH ANALYTICS AND INSIGHTS
-              </p>
-              <div className="section-3-problem-solution">
-                <p className="problem">
-                  <span>Problem</span>
-                  Paper-based tests provide outdated, ineffective, and
-                  incomplete analytics, making it time-consuming to derive
-                  actionable statistics and make informed decisions.
-                  <Image
-                    className="section-3-icons"
-                    src={circle6}
-                    alt="circle"
-                  ></Image>
-                </p>
-                <p className="solution">
-                  <span>Solution</span>
-                  Analyze in-depth evaluations from both teams and respondents,
-                  utilizing diverse sorting methods to impartially compare
-                  gathered data and swiftly derive conclusions.
                   <Image
                     className="section-3-icons"
                     src={circle7}

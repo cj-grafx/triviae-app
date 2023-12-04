@@ -9,6 +9,8 @@ import AccessCodeSection from "./components/AccessCodeSection";
 import SecondSection from "./components/SecondSection";
 import ThirdSection from "./components/ThirdSection";
 import TreeSection from "./components/TreeSection";
+import FourthSection from "./components/FourthSection";
+import PageFooter from "./components/PageFooter";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <SecondSection />
       <ThirdSection />
       <TreeSection />
+      <FourthSection />
+      <PageFooter />
     </>
   );
 }
