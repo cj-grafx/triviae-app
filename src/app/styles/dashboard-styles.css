@@ -1,0 +1,9 @@
+.apple {
+  fill: pink;
+  /* background-color: pink; */
+  cursor: pointer;
+}
+
+.apple:hover {
+  fill: grey;
+}
